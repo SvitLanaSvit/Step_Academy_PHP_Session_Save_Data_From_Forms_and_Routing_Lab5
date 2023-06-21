@@ -30,7 +30,7 @@
                     <th>Surname</th>
                     <th>Age</th>
                     <?
-                        for($i = 1; $i < 5; $i++){
+                        for($i = 1; $i <= count($visited_pages); $i++){
                             echo "<th>Page_".$i."</th>";
                         }
                     ?>
